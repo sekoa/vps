@@ -6,7 +6,6 @@
 COLOR_ERROR="\e[38;5;198m"
 COLOR_NONE="\e[0m"
 COLOR_SUCC="\e[92m"
-
 update_core(){
     echo -e "${COLOR_ERROR}当前系统内核版本太低 <$VERSION_CURR>,需要更新系统内核.${COLOR_NONE}"
     sudo apt install -y -qq --install-recommends linux-generic-hwe-18.04
