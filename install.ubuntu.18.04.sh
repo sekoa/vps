@@ -3,8 +3,6 @@
 # original author:https://github.com/gongzili456
 # modified by:https://github.com/haoel
 # Ubuntu 18.04 系统环境
-
-
 COLOR_ERROR="\e[38;5;198m"
 COLOR_NONE="\e[0m"
 COLOR_SUCC="\e[92m"
